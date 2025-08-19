@@ -27,7 +27,7 @@ Source: [Zensus 2022 official portal](https://www.zensus2022.de)
 - `Final_housing_BB.ipynb` → **Main analysis notebook** (SQL queries, clustering, visualizations).  
 - `realestate_berlin_brandenburg.py` → Trial Python script for early ETL and queries.  
 - `data/raw/news-zensus-2022-miete.xlsx` → Zensus 2022 rental dataset.  
-- `requirements.txt` → Python dependencies.  
+- `requirement.txt` → Python dependencies.  
 
 ---
 
@@ -39,7 +39,7 @@ Clone the repository and install dependencies:
 - cd Berlin-Rental-Market-Clustering
 - python -m venv venv
 - source venv/bin/activate  # Windows: .\venv\Scripts\activate
-- pip install -r requirements.txt
+- pip install -r requirement.txt
 
 ---
 
