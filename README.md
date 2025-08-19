@@ -78,7 +78,8 @@ PNG files are in the repository root for direct GitHub display.
 - Market Demand: A strong preference for move-in-ready, low-maintenance housing.
 - Cost-Plus Pricing: New developments must recoup high land, material, and regulatory compliance costs.
 
-This trend holds true across the entire city, indicating that "newness" is a universally valued attribute, independent of location.
+
+
 ---
 
 ### 2. Rent Distribution by Construction Period  
