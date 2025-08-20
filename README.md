@@ -1,10 +1,10 @@
-# 🏙️ SQL + Python Analysis of Berlin & Brandenburg Rental Market
+# SQL + Python Analysis of Berlin & Brandenburg Rental Market
 
-This project analyzes Berlin and Brandenburg's housing market using **Zensus 2022 rental data**, exploring how rent prices vary by building age and district. By combining **SQL**, **Python**, and **machine learning (K-Means clustering)**, we extract actionable insights for renters, investors, and urban planners.
+This project examines the **housing market** in Berlin and Brandenburg using **Zensus 2022 rental data**, focusing on how rent prices vary by building age and district.
 
-The goal is to transform raw public data into clean datasets, perform advanced analysis, and generate clear visualizations that highlight patterns in rent pricing and district-level market archetypes.
+Beyond mere numbers, a city’s rental market reflects its culture, economy, and the collective search for home. This project offers a cartographic exploration of Berlin’s urban fabric, moving past simple averages to uncover the deeper patterns that shape its neighborhoods.
 
----
+By applying clustering algorithms to Berlin rental listings, this analysis seeks to decode the **urban ecosystem and reveal the underlying archetypes of the city’s rental landscape**. The result is a nuanced map for renters, researchers, and urban enthusiasts alike.---
 
 ## 🗃️ Data Source
 
@@ -73,7 +73,7 @@ PNG files are in the repository root for direct GitHub display.
 ### 1. Average Rent by Building Age (Berlin)  
 ![Average Rent by Age](average%20rent%20by%20building%20age%20in%20Berlin%20.png)  
 ➡️ **New apartments are almost 2× as expensive as pre-1950 units.**  
-- The chart reveals a near-linear relationship between the year of construction and the average net cold rent. Apartments built post-2010 (€12.40/m²) are approximately 70% more expensive than those from the pre-1950 era (€7.80/m²). This premium is driven by:
+The chart reveals a near-linear relationship between the year of construction and the average net cold rent. Apartments built post-2010 (€12.40/m²) are approximately 70% more expensive than those from the pre-1950 era (€7.80/m²). This premium is driven by:
 - Higher Construction Standards: Modern energy efficiency (EnEV), sound insulation, and amenities.
 - Market Demand: A strong preference for move-in-ready, low-maintenance housing.
 - Cost-Plus Pricing: New developments must recoup high land, material, and regulatory compliance costs.
@@ -100,8 +100,9 @@ This box plot provides a more nuanced story than the simple average:
 ➡️ Insight: The market is not a monolith but a mosaic of distinct sub-markets. 
 - **Central & Premium**  
 - **Up-and-Coming**  
-- **Peripheral & Affordable**  
-K-Means clustering uncovers patterns invisible to simple averages. High-demand central districts cluster together, emerging neighborhoods are distinct, and peripheral districts show lower but more uniform rents. This segmentation informs policy, investment, and urban planning.  
+- **Peripheral & Affordable**
+  
+**K-Means clustering** uncovers patterns invisible to simple averages. High-demand central districts cluster together, emerging neighborhoods are distinct, and peripheral districts show lower but more uniform rents. This segmentation informs policy, investment, and urban planning.  
 Applying K-Means clustering to the rent-by-age profiles of each district revealed 8 unique archetypes, moving beyond the simplistic "cheap vs. expensive" dichotomy:
 - **Cluster 0 (Central & Wealthy)**: e.g., Mitte, Charlottenburg. High rents across all eras. Historic charm and modern luxury are both premium products.
 - **Cluster 4 (Up-and-Coming)**: e.g., Neukölln, parts of Pankow. Characterized by a massive gap between moderately priced old stock and sharply rising prices for new builds. This signals intense gentrification and investment pressure.
@@ -134,12 +135,21 @@ This chart allows users to quickly find a district's cluster and understand its 
 - **Data-Driven District Typology:** The 8-cluster model provides a sophisticated, empirical framework for categorizing neighborhoods based on economic behavior rather than tradition or perception, revealing patterns like "transitional" districts that are critical for understanding urban development.
 
 
+
 ---
-
-
 
 ## 👩‍💻 Author
 **Amira Ben Salem**  
 📫 Email: besamira77@gmail.com  
 📍 Berlin, Germany  
+
+---
+
+## Disclaimer & Ethical Note:
+
+- Educational Purpose: This project was created for portfolio/educational purposes to demonstrate skills in data cleaning, exploration, and machine learning.
+- Data Source: The analysis is based on a publicly available dataset. I do not claim to own or have collected this data.
+- Limitations: The findings and clusters are exploratory in nature and are based on the specific methodology and assumptions detailed in the notebook. They are not definitive and should not be considered a complete representation of reality.
+- Not Endorsement: This project is not affiliated with, endorsed by, or sponsored by any mentioned companies or entities.
+
 
